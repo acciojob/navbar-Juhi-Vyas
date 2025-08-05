@@ -5,7 +5,17 @@
 	color: white;
 	font-size: 18px;
 	display: flex;
-	justify-content: space-between
+	justify-content: space-between;
+}
+
+.nav-left{
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-right{
+	display: flex;
+	justify-content: space-between;
 }
 
 ul{
@@ -26,14 +36,4 @@ li{
 li:hover{
 	background-color: #b90e4d;
 	cursor: pointer;
-}
-
-.nav-left{
-	display: flex;
-	justify-content: space-between;
-}
-
-.nav-right{
-	display: flex;
-	justify-content: space-between;
 }
